@@ -6,12 +6,9 @@ ConditionFileIsExecutable=/opt/nezha/agent/nezha-agent
 [Service]
 StartLimitInterval=5
 StartLimitBurst=10
-ExecStart=/opt/nezha/agent/nezha-agent "-s" "nezha-tz.avol.cc:5089" "-p" "twP8kJqSczL9Ruga8q" --disable-auto-update --disable-force-update
+ExecStart=/opt/nezha/agent/nezha-agent "-s" "网址/IP:端口" "-p" "密钥" --disable-auto-update --disable-force-update
 
 WorkingDirectory=/root
-
-
-
 
 
 Restart=always
