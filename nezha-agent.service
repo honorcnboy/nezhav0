@@ -6,7 +6,7 @@ ConditionFileIsExecutable=/opt/nezha/agent/nezha-agent
 [Service]
 StartLimitInterval=5
 StartLimitBurst=10
-ExecStart=/opt/nezha/agent/nezha-agent "-s" "网址/IP:端口" "-p" "密钥" --disable-auto-update --disable-force-update
+ExecStart=/opt/nezha/agent/nezha-agent "-s" "web/ip:8888" "-p" "123456789" --disable-auto-update --disable-force-update
 
 WorkingDirectory=/root
 
