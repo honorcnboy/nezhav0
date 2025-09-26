@@ -14,13 +14,13 @@ chmod 700 /opt/nezha /opt/nezha/agent
 
 2.1 AMD
 wget https://raw.githubusercontent.com/honorcnboy/nezhav0/refs/heads/main/nezha-agent-amd
-mv nezha-agent-amd nezha-agent
-chmod 755 nezha-agent
+mv nezha-agent-amd /opt/nezha/agent/
+chmod 755 /opt/nezha/agent/nezha-agent
 
 2.2 ARM
 wget https://raw.githubusercontent.com/honorcnboy/nezhav0/refs/heads/main/nezha-agent-arm
-mv nezha-agent-arm nezha-agent
-chmod 755 nezha-agent
+mv nezha-agent-arm /opt/nezha/agent/
+chmod 755 /opt/nezha/agent/nezha-agent
 ```
 
 3. service文件安装
